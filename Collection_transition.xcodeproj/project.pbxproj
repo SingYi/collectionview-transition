@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E83143F1D1C00F200D5797C /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83143E1D1C00F200D5797C /* MyCollectionViewCell.m */; };
 		5EB1D6501D1BEA890028867C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1D64F1D1BEA890028867C /* main.m */; };
 		5EB1D6531D1BEA890028867C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1D6521D1BEA890028867C /* AppDelegate.m */; };
 		5EB1D6561D1BEA890028867C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1D6551D1BEA890028867C /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E83143D1D1C00F100D5797C /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		5E83143E1D1C00F200D5797C /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
 		5EB1D64B1D1BEA890028867C /* Collection_transition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collection_transition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB1D64F1D1BEA890028867C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EB1D6511D1BEA890028867C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				5EB1D6521D1BEA890028867C /* AppDelegate.m */,
 				5EB1D6541D1BEA890028867C /* ViewController.h */,
 				5EB1D6551D1BEA890028867C /* ViewController.m */,
+				5E83143D1D1C00F100D5797C /* MyCollectionViewCell.h */,
+				5E83143E1D1C00F200D5797C /* MyCollectionViewCell.m */,
 				5EB1D6571D1BEA890028867C /* Main.storyboard */,
 				5EB1D65A1D1BEA890028867C /* Assets.xcassets */,
 				5EB1D65C1D1BEA890028867C /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				5EB1D6561D1BEA890028867C /* ViewController.m in Sources */,
 				5EB1D6531D1BEA890028867C /* AppDelegate.m in Sources */,
+				5E83143F1D1C00F200D5797C /* MyCollectionViewCell.m in Sources */,
 				5EB1D6501D1BEA890028867C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +308,7 @@
 				5EB1D6641D1BEA890028867C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
